@@ -1,5 +1,6 @@
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Roboto', sans-serif !important;
+	    color: #292116;
 }
 .right{
 	float: right;
@@ -42,7 +43,7 @@ nav .menuTog{
 }
 
 .cta1{
-	background-image: url(/img/headshot2.jpg);
+	background-image: url(../img/headshot2.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -109,10 +110,21 @@ ul{
 }
 
 .button{
-	    color: #464646;
+	color: #292116;
     font-weight: 800;
-    border: 5px solid #464646;
+    border: 5px solid #292116;
     padding: 20px 75px;
 	font-size: 2.5em;
 	background-color: transparent;
+}
+.socialmedia li a span:before{
+	color: #FEC107;
+	font-size: 25px;
+}
+.socialmedia li {
+	display: inline-block;
+	padding-right: 15px;
+}
+.socialmedia li a{
+	display: block;
 }
