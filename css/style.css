@@ -20,8 +20,10 @@ nav a{
 	font-weight: 800;
 }
 nav a:hover{
-	color: #fff;
-	font-weight: 800;
+	    color: #FEC107;
+    font-weight: 800;
+    display: block;
+    background-color: white;
 }
 nav .menuTog{
 	top: 0;
