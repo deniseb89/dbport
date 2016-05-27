@@ -142,3 +142,12 @@ ul{
 	width: 55px;
 	padding: 5px 0;
 }
+
+/*CSS Media Queries*/
+
+@media only screen and (max-width: 643px) {
+	.button{
+		padding: 20px 30px;
+		font-size: 25px;
+	}
+}
