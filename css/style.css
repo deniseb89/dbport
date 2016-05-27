@@ -100,6 +100,16 @@ ul{
   background: #FEC107;
   box-shadow: 0 0.35em 0 0 #FEC107, 0 0.70em 0 0 #FEC107;
 }
+.box-shadow-menu-x:before {
+  content: "\274c";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 1em;
+  height: 6px;
+  background: transparent;
+  box-shadow: none;
+}
 .footer{
 	background-color: #292116;
 	padding: 15px;
