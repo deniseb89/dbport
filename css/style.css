@@ -23,7 +23,7 @@ nav a{
 	color: #292116;
 	font-weight: 800;
 }
-nav a:hover{
+nav .links a:hover{
 	    color: #FEC107;
     font-weight: 800;
     display: block;
@@ -104,7 +104,7 @@ ul{
   content: "\274c";
   position: absolute;
   left: 0;
-  top: 5px;
+  top: 0;
   width: 1em;
   height: 6px;
   background: transparent;
@@ -142,7 +142,13 @@ ul{
 	width: 55px;
 	padding: 5px 0;
 }
-
+.thumbnail{
+	border: none;
+	margin: 0;
+}
+.portitems{
+	margin-top: 40px;
+}
 /*CSS Media Queries*/
 
 @media only screen and (max-width: 643px) {
