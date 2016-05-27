@@ -2,10 +2,10 @@ var menuToggle = false;
 $( "#menu" ).click(function() {
 	menuToggle = !menuToggle;
 	if(menuToggle == true){
+		$('#menu').addClass('is-active');
 		$(".links").fadeIn();
-		$(".box-shadow-menu").addClass("box-shadow-menu-x");
 	}else{
+		$('#menu').removeClass('is-active');
 		$(".links").fadeOut();
-		$(".box-shadow-menu").removeClass("box-shadow-menu-x");
 	}
 });
