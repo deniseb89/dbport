@@ -1,15 +1,18 @@
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Roboto', sans-serif !important;
-	    color: #292116;
+	color: #292116;
 }
 .right{
 	float: right;
 }
+body{
+	background-color: #FFF9EE;
+}
 nav{
-	color: #fff;
+	color: #FFF9EE;
 	background: #FEC107;
 	font-family: 'Roboto', sans-serif;
-	height: 50px;
+	height: 70px;
 }
 nav h3{
 	font-family: 'Playfair Display', serif !important;
@@ -17,33 +20,32 @@ nav h3{
 	margin: 0;
 }
 nav a{
-	color: #464646;
+	color: #292116;
 	font-weight: 800;
 }
 nav a:hover{
 	    color: #FEC107;
     font-weight: 800;
     display: block;
-    background-color: white;
+    background-color: #FFF9EE;
 }
 nav .menuTog{
 	top: 0;
     right: 0;
-    background: #fff;
-    padding: 2px 10px;
+    background: #FFF9EE;
+    padding: 10px 22px;
     position: absolute;
     color: #FEC107;
     font-size: 35px;
-    height: 50px;
-    width: 56px;
+    height: 75px;
+    width: 75px;
 }
 .container{
 	height: 100%;
 	display: block;
 }
-
 .cta1{
-	background-image: url(../img/headshot2.jpg);
+	background-image: url(../img/headshot3.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -51,8 +53,7 @@ nav .menuTog{
 }
 .cta2{
 	background-color: #FEC107;
-		padding: 130px 0;
-
+	padding: 130px 0;
 }
 .links{
 	display: none;
@@ -60,10 +61,8 @@ nav .menuTog{
 	position: fixed;
     width: 100%;
 	height: 100%;
-	top: 50px;
+	top: 73px;
 	color: #fff;
-}
-.links a{
 }
 .links li {
 	padding-right: 15px;
@@ -80,14 +79,13 @@ ul{
     margin-right: auto;
     max-width: initial;
 }
- .fullWidth:before, .fullWidth:after {
-        content: " ";
-        display: table;
-    }
-
-  .fullWidth:after {
-        clear: both;
-    }
+.fullWidth:before, .fullWidth:after {
+	content: " ";
+	display: table;
+}
+.fullWidth:after {
+	clear: both;
+}
 .box-shadow-menu {
   position: relative;
   padding-left: 1.25em;
@@ -100,13 +98,11 @@ ul{
   width: 1em;
   height: 6px;
   background: #FEC107;
-  box-shadow: 
-    0 0.35em 0 0 #FEC107, 0 0.70em 0 0 #FEC107
+  box-shadow: 0 0.35em 0 0 #FEC107, 0 0.70em 0 0 #FEC107;
 }
 .footer{
 	background-color: #292116;
 	padding: 15px;
-	
 }
 .button{
 	color: #292116;
@@ -126,4 +122,8 @@ ul{
 }
 .socialmedia li a{
 	display: block;
+}
+.logo{
+	width: 55px;
+	padding: 5px 0;
 }
