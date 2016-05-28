@@ -109,6 +109,9 @@ ul{
 	color: #FEC107;
 	background-color: #FFF9EE;
 }
+button:focus{
+	outline: none !important;
+}
 .socialmedia li a span:before{
 	color: #FEC107;
 	font-size: 25px;
