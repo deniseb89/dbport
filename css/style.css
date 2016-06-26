@@ -1,9 +1,12 @@
 * {
   margin: 0;
 }
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, p{
 	font-family: 'Roboto', sans-serif !important;
 	color: #292116;
+}
+a{
+    font-family: 'Roboto', sans-serif !important;
 }
 .right{
 	float: right;
@@ -148,6 +151,9 @@ button:focus{
 }
 .portitems{
 	margin-top: 40px;
+}
+.portitems li{
+    margin-bottom: 30px;
 }
 /*CSS Media Queries*/
 
@@ -309,4 +315,42 @@ html {
     width: 500%;
   }
   
+}
+
+.resume{
+    padding-top: 15px;
+}
+.resume ul{
+    list-style: square;
+    margin: 15px 0 15px 40px;
+}
+.resume .row {
+    margin-bottom: 15px;
+}
+.resume h4{
+    background-color: #464646;
+    color: #FEC107;
+    display: inline-block;
+    padding: 5px 15px;
+}
+.resume h6{
+    font-weight: 700;
+}
+
+.nav-tabs li{
+    opacity: .5;
+}
+.nav-tabs li.active{
+    opacity: 1;
+}
+
+.tab-pane{
+    display: none;
+}
+.tab-pane.active{
+    display: block;
+}
+.tab-content{
+    overflow: hidden;
+    background-color: #FFF9EE;
 }

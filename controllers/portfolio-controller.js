@@ -1,5 +1,6 @@
 app.controller('PortfolioController', function($scope, $http) {
     $http.get("portfolio.json").then(function(response) {
+        console.log(response);
         $scope.pieces = response.data;
     });
 });

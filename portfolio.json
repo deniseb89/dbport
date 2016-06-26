@@ -4,7 +4,7 @@
         "url": "http://deniseb89.github.io/patois-ipsum",
         "github": "http://github.com/deniseb89/patois-ipsum",
         "description": "This is a dummy text generator but instead of Latin, it returns Jamaican Patois.",
-        "image": "/img/patois-ipsum.png",
+        "image": "img/patois-ipsum.png",
         "tools": "React.js"
     },
     {
@@ -12,7 +12,7 @@
         "url": "http://deniseb89.github.io/english-translator",
         "github": "http://github.com/deniseb89/english-translator",
         "description": "Type a word into the search box to be presented with a list of ways to say what you mean in various English-speaking countries.",
-        "image": "/img/english-translator.png",
+        "image": "img/english-translator.png",
         "tools": "Angular.js"
     }
 ]
