@@ -1,7 +1,12 @@
 [
     {
-        "title": "Intro",
+        "title": "The History of Math",
         "date": "June 26, 2016",
+        "file": "blog/math.md"
+    },
+    {
+        "title": "Intro",
+        "date": "June 24, 2016",
         "file": "blog/intro.md"
     }
 ]
