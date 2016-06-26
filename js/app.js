@@ -13,6 +13,11 @@ app.config(["$stateProvider", "$urlRouterProvider", function($stateProvider, $ur
             controller: "PortfolioController",
             templateUrl: "views/portfolio.html"
         })
+        .state('blog', {
+            url: "/blog",
+            controller: "BlogController",
+            templateUrl: "views/blog.html"
+        })
         .state('resume', {
             url: "/resume",
             controller: "ResumeController",
