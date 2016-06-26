@@ -347,10 +347,22 @@ html {
 .tab-pane{
     display: none;
 }
+.tab-pane h3{
+    font-weight: 800;
+}
+.tab-pane p{
+    color: #7f7f7f;
+}
+.tab-pane a{
+    font-weight: 800;
+    color: #7f7f7f;
+    text-decoration: underline;
+}
 .tab-pane.active{
     display: block;
 }
 .tab-content{
+    padding: 15px;
     overflow: hidden;
-    background-color: #FFF9EE;
+    border: 10px solid #FEC107;
 }
