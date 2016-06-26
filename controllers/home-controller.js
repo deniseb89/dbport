@@ -1,8 +1,10 @@
 app.controller('HomeController', function($scope, $interval) {
     var cyclelist = ['build', 'create', 'assemble', 'construct', 'make', 'develop', 'produce'];
-    $scope.rand = cyclelist[0];
+    var i = 0;
+    var max = cyclelist.length-1;
+    $scope.rand = cyclelist[i];
     $interval(function() {
-        var random = Math.floor(Math.random() * (cyclelist.length - 0));
-        $scope.rand = cyclelist[random];
+        (i == max) ? i = 0 : i++;
+        $scope.rand = cyclelist[i];
     }, 2000);
 });
