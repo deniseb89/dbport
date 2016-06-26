@@ -123,9 +123,9 @@ ul{
 	background-color: transparent;
 }
 .button:focus, .button:hover{
-	border: 5px solid #FFF9EE;
+	border: 5px solid #ffe8a8;
 	color: #FEC107;
-	background-color: #FFF9EE;
+	background-color: #ffe8a8;
 }
 button:focus{
 	outline: none !important;
@@ -348,6 +348,7 @@ html {
     display: none;
 }
 .tab-pane h3{
+    font-family: "Playfair Display";
     font-weight: 800;
 }
 .tab-pane p{
@@ -365,4 +366,10 @@ html {
     padding: 15px;
     overflow: hidden;
     border: 10px solid #FEC107;
+}
+
+.randWord{
+    color: #FEC107;;
+    font-weight: 800;
+    text-decoration: underline;
 }
