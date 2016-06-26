@@ -1,28 +1,15 @@
-<div class="container">
-	<div class="row">
-		<div class="columns small-12">
-	<!--<h1 style="font-family: 'Playfair Display SC', serif !important; font-style: italic;">My Work</h1>-->
+<div class="container portitems row">
+	<tabs>
+		<div class="" ng-repeat="piece in pieces">
+			<pane imgurl="{{piece.image}}">
+				<div>
+					<h3>{{piece.title}}</h3>
+					<p>{{piece.description}}</p>
+					<a href="{{piece.github}}" target="_blank">Github</a>
+					<a href="{{piece.url}}" target="_blank">View</a>
+
+				</div>
+			</pane>
 		</div>
-	</div>
-	<div class="row collapse small-up-1 medium-up-2 large-up-4 portitems" ng-repeat="piece in pieces">
-		<section class="image-grid">
-			<div class="image__cell is-collapsed columns">
-				<div class="image--basic">
-					<a href="#expand-jump-1">
-						<img id="expand-jump-1" class="basic__img" src="{{piece.image}}" alt="{{piece.title}}" />
-					</a>
-					<div class="arrow--up"></div>
-				</div>
-				<div class="image--expand">
-					<a href="#close-jump-1" class="expand__close"></a>
-					<img class="image--large" src="{{piece.image}}" alt="{{piece.title}}"/>
-					<div>
-						<a href="{{piece.url}}"><h3>{{piece.title}}</h3></a>
-						<p>{{piece.description}}</p>
-						<a href="{{piece.github}}">Built with {{piece.tools}}</a>
-					</div>
-				</div>
-			</div>
-		</section>
-	</div>
+	</tabs>
 </div>
