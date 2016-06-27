@@ -69,7 +69,7 @@ directive('pane', function() {
             tabsCtrl.addPane(scope);
         },
         template:
-        '<div class="tab-pane animated slideInDown" ng-class="{active: selected}" ng-transclude>' +
+        '<div class="tab-pane animated slideInLeft" ng-class="{active: selected}" ng-transclude>' +
         '</div>',
         replace: true
     };
