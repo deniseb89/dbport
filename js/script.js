@@ -1,5 +1,5 @@
 var menuToggle = false;
-$( "#menu" ).click(function() {
+$( "#menu, a" ).click(function() {
 	menuToggle = !menuToggle;
 	if(menuToggle == true){
 		$('#menu').addClass('is-active');
